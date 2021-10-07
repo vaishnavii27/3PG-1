@@ -166,42 +166,52 @@ h2 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
     padding:18px;
-
+    height: 220px;
 }
 .grid-item:hover
 {
-    transform: translateY(-0.5%);
+    transform: translateY(-10%);
     box-shadow:0 10px 10px rgba(0,0,0,0.);
-    
 
 }
 .card-img
 {
     display:block;
-    width: 25%;
+    width: 30px;
     object-fit:cover;
     margin-bottom: .8rem;
 }
+
 .card-content
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    text-align: left;
 
 }
+
 .card-header:hover
 {
-    color:blue;
+    color:rgb(53, 108, 228);
+    text-decoration: underline;
+    
 }
 .card-header
 {
     text-align: left;  
     color:black;
     margin-bottom: 20px;
+    font-size: small;
 }
 .card-text
 {
-    text-align: justify;
-    word-break: break-all;
+    text-align: left;
+    /* word-break: normal; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
-    font-size:.9rem;
+    font-size: 13px;
+}
+
+.card-text:hover{
+    color: black;
 }
