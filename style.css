@@ -59,9 +59,9 @@ nav a:hover {
     font-size: larger;
     width: 500px;
     height: 300px;
-    margin: 100px 100px 50px 0px;
+    margin: 100px 100px 100px 0px;
     color: #000;
-    cursor: auto;
+
 }
 
 .para1{
@@ -79,8 +79,7 @@ nav a:hover {
     color: white;
     font-size: 15px;
     background-color: rgb(53, 108, 228);
-
-    
+   
 }
 
 
@@ -152,9 +151,9 @@ h2 {
 {
     display:grid;
     width: 60em;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
-    align-items: start;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
 
 }
 .grid-item
@@ -163,16 +162,17 @@ h2 {
     overflow: hidden;
     cursor: pointer;
     transition: 0.2s;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
     border-radius: 10px;
     padding:18px;
     height: 220px;
 }
+
 .grid-item:hover
 {
     transform: translateY(-10%);
     box-shadow:0 10px 10px rgba(0,0,0,0.);
-
+    
 }
 .card-img
 {
@@ -187,7 +187,6 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
     text-align: left;
-
 }
 
 .card-header:hover
